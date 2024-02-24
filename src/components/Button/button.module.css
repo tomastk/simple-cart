@@ -1,0 +1,20 @@
+.button {
+  padding: 1.5rem;
+  background-color: #1154a7;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  width: 80%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  border: 1px solid #1154a7;
+  background-color: #fff;
+  color: #1154a7;
+}
+
+form .button {
+  width: 100%;
+}

@@ -1,0 +1,25 @@
+.addForm {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.price {
+  position: relative;
+}
+
+.price::after {
+  content: "$";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.5rem;
+  color: #221f1f;
+  font-size: 1rem;
+}

@@ -1,0 +1,9 @@
+.total {
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
+.total span {
+  font-weight: bold;
+  color: #1154a7;
+}
