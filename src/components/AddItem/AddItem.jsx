@@ -11,6 +11,11 @@ const AddItem = () => {
     const data = new FormData(e.target);
     const name = data.get("name");
     const price = data.get("price");
+
+    if (name.length === 0 || price.length === 0) {
+      return;
+    }
+
     context.dispatch({
       type: "add",
       payload: { id: Date.now(), name, price, quantity: 1 },
