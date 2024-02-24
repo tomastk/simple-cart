@@ -28,12 +28,8 @@ const AddItem = () => {
     <form onSubmit={handleAddItem} className={styles.addForm}>
       <h1>Añadir</h1>
       <input type="text" name="name" placeholder="Nombre" />
-      <input
-        type="number"
-        name="price"
-        placeholder="Precio"
-        className={styles.price}
-      />
+      <input type="number" name="price" placeholder="Precio" />
+
       <Button callToAction={"Anadir"}>Add</Button>
     </form>
   );
